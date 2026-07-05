@@ -7,16 +7,31 @@ AI/テック系ニュースを取得し、X アカウント「Ren_ai」(@ren___a
 ## 使い方（追加課金なしの運用）
 
 下書きの生成は **Claude Code のチャットで「下書き作って」と頼むだけ**です。
-Claude がニュースを取得して下書きを書き、`data/drafts.json` に保存します。
+Claude がニュースを取得して下書きを書き、`data/drafts.json` に保存 → 静的ページを生成して GitHub Pages に公開します。
 
-閲覧用の Web UI を起動するには:
+**スマホ・外出先からの閲覧**: https://ryousuke18911.github.io/renai-drafts/
+
+各下書きには次の機能があります:
+
+- **Xで投稿** — Xの投稿画面が下書き＋記事URL入りで開く（投稿ボタンは自分で押す）
+- **コピー** — クリップボードにコピー
+- **投稿済みマーク** — チェックすると薄く表示（保存は端末のブラウザごと）
+- **日本語ミニ解説** — 英語記事の内容を開かずに把握できる
+
+ローカルで閲覧する場合:
 
 ```bash
-./venv/bin/python app.py
+./venv/bin/python app.py   # http://localhost:5001
 ```
 
-ブラウザで http://localhost:5001 を開くと、記事ごとに3パターンの下書きが表示されます。
-「コピー」ボタンでクリップボードにコピーして、X に手動投稿してください。
+### 下書き生成後の公開手順（Claude が実行）
+
+```bash
+./venv/bin/python build_site.py   # docs/index.html を生成
+git add -A && git commit -m "下書き更新" && git push   # 1〜2分でページに反映
+```
+
+一度下書きを作った記事は `data/history.json` に記録され、次回以降は自動で除外されます。
 
 ## セットアップ（再構築する場合）
 
