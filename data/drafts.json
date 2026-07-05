@@ -1,102 +1,102 @@
 {
-  "generated_at": "2026-07-05T15:05:00+00:00",
+  "generated_at": "2026-07-05T15:22:29+00:00",
+  "generated_at_display": "2026年7月6日 00:22",
   "articles": [
     {
-      "title": "New Google commercial imagines a Declaration of Independence written with help from AI",
-      "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
-      "source": "TechCrunch (AI)",
-      "drafts": [
-        "建国250年のアメリカで、「もし建国の父たちがGoogle Workspaceを使えたら？」というCMが公開されたそうです📡 歴史の名場面にAIを重ねる発想、賛否ありそうですが目を引きますね。",
-        "Googleが独立宣言250周年に合わせて、AIと一緒に宣言を書く…という設定のCMを出したそうです。テクノロジーの見せ方として面白い一方、歴史文書だけに反応が気になるところですね🤔",
-        "「独立宣言×AI」というGoogleの新CMの話題です。250年の節目に合わせた演出だそうで、AIが広告の題材としても主役級になってきたのを感じます✨ みなさんはこの組み合わせ、アリですか？"
-      ],
-      "error": null,
-      "summary_ja": "米国の建国250年に合わせ、Googleが「建国の父たちがAI（Google Workspace）を使って独立宣言を書いたら？」という設定のCMを公開したという話題。"
-    },
-    {
-      "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
-      "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
-      "source": "TechCrunch (AI)",
-      "drafts": [
-        "ハリウッド3スタジオと係争中のMidjourneyが、逆にスタジオ側のAI利用の詳細開示を求めているそうです。「訴えている側もAIを使っているのでは？」という切り返しですね👀 続報が気になります。",
-        "AIと著作権の裁判で新展開です。Midjourneyがハリウッドのスタジオに対し、映画制作でのAI利用実態を明らかにするよう求めたとのこと📡 この裁判、業界全体のAI利用の透明化につながるかもしれませんね。",
-        "Midjourneyとハリウッドの訴訟、攻守が入れ替わるような動きです。スタジオ側のAI活用を開示させようとしているそうで、クリエイティブ業界とAIの関係を考えるうえで見逃せない裁判ですね☁️"
-      ],
-      "error": null,
-      "summary_ja": "画像生成AIのMidjourneyがハリウッド3スタジオと著作権で係争中。逆にスタジオ側のAI利用実態を開示するよう求めた、という訴訟の新展開。"
-    },
-    {
-      "title": "Alibaba reportedly bans employees from using Claude Code",
-      "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
-      "source": "TechCrunch (AI)",
-      "drafts": [
-        "AlibabaがClaude Codeを「高リスクソフトウェア」に分類し、社員の利用を禁止したとの報道です。AIコーディングツールをどう扱うか、企業によって判断が分かれてきましたね🤔 みなさんの職場はどうですか？",
-        "気になる報道です。AlibabaがClaude Codeの社内利用を禁止したそうで、理由は「高リスク」との分類とのこと📡 便利なツールほどセキュリティやポリシーとの折り合いが課題になりますね。",
-        "AIコーディングツールの企業導入、一筋縄ではいかないようです。AlibabaがClaude Codeを禁止したと報じられています。地政学的な背景も想像してしまうニュースですが、まずは続報を待ちましょう☁️"
-      ],
-      "error": null,
-      "summary_ja": "中国の大手IT企業Alibabaが、AIコーディングツール「Claude Code」を高リスクソフトに分類し、社員の利用を禁止したという報道。"
-    },
-    {
-      "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
-      "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
-      "source": "TechCrunch (AI)",
-      "drafts": [
-        "フランス発のMistral AI、まとめ記事が出ています。2023年創業ながら大型調達を重ね、オープンソースモデルの提供が特徴だそうです📡 米国勢だけじゃないAI競争、面白くなってきましたね。",
-        "「Mistral AIって最近よく聞くけど何者？」という方におすすめの解説記事です。「フロンティアAIをみんなの手に」という理念を掲げているそうです✨ オープンソース路線、個人的に応援したくなります。",
-        "OpenAIの競合として名前が挙がるMistral AIの全体像がわかる記事です。創業3年での成長ぶりに驚きました。AIの選択肢が増えるのは私たちユーザーにとってもうれしいことですね。チェックしてみましょう！"
-      ],
-      "error": null,
-      "summary_ja": "フランスのAI企業Mistral AIの解説記事。2023年創業でオープンソースモデルを提供し、OpenAIの競合として注目されている。"
-    },
-    {
-      "title": "The only AI glossary you'll need this year",
-      "url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-      "source": "TechCrunch (AI)",
-      "drafts": [
-        "TechCrunchがAI用語集を公開しています。「ハルシネーション」など、よく聞くけど説明しづらい言葉が整理されていて便利そうです📖 用語がわかるとニュースがもっと楽しくなりますね。",
-        "AI関連の新語、増えるペースが早すぎませんか？主要な用語の定義をまとめた記事が出ています✨ 私もこういう記事でたまに頭を整理しています。ブックマークしておきましょう！",
-        "「AIニュースを読んでいて用語でつまずく…」という方に良さそうな用語集記事です📡 基本の言葉を押さえておくと、新しい話題へのキャッチアップもスムーズになりますね。一緒に復習しましょう！"
-      ],
-      "error": null,
-      "summary_ja": "「ハルシネーション」などAI関連の頻出用語の意味をまとめた用語集記事。"
-    },
-    {
-      "title": "New attack provides one more reason why AI browsers are a bad idea",
-      "url": "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/",
+      "title": "Anthropic \"pauses\" token-based billing for its Claude Agent SDK",
+      "url": "https://arstechnica.com/ai/2026/06/anthropic-pauses-token-based-billing-for-its-claude-agent-sdk/",
       "source": "Ars Technica (AI)",
       "drafts": [
-        "「2+2=5」のような偽の前提をLLMに信じ込ませると、禁止された指示に従ってしまう——AIブラウザへのそんな攻撃手法が報告されています🔍 便利になるほどセキュリティの話も大事になりますね。",
-        "AIブラウザの安全性に関する気になる報告です。モデルを偽の前提で「夢の世界」に誘導すると、ガードレールが効かなくなることがあるそうです。新しいツールを使うときは、こういう情報も知っておきたいですね🤔",
-        "Ars TechnicaがAIブラウザへの新しい攻撃手法を紹介しています。誤った前提を教え込むだけで制限を回避できてしまうケースがあるとのこと📡 AIの「素直さ」が弱点にもなる、考えさせられる話です。"
+        "AnthropicがClaude Agent SDKのトークン課金への移行を一時停止したそうです。予定通りならヘビーユーザーの負担が大きく増えていたとのこと。ユーザーの声が届いた形でしょうか、続報が気になりますね🤔",
+        "Claude Agent SDKのトークンベース課金、開始直前で「一時停止」になったそうです。ヘビーユーザーほどコスト増になる内容だったとのこと。AIツールの料金体系、まだまだ模索が続きそうですね💭",
+        "AI開発ツールの料金の話題です。AnthropicがAgent SDKのトークン課金を直前で見送ったと報じられています。定額とトークン課金、どちらが嬉しいかは使い方次第…みなさんはどう思いますか？✨"
       ],
       "error": null,
-      "summary_ja": "AIブラウザに偽の前提（例：2+2=5）を信じ込ませると、本来禁止された指示に従ってしまう攻撃手法が見つかったというセキュリティ報告。"
+      "summary_ja": "AnthropicがClaude Agent SDKのトークンベース課金への移行を「一時停止」したという報道。月曜に予定されていた変更は、ヘビーユーザーのコストを大幅に増やす内容だったとされています。"
     },
     {
-      "title": "Notion killing Skiff-influenced email app since most users use AI agents instead",
-      "url": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/",
+      "title": "Critical Copilot vulnerability allowed hackers to steal 2FA code from users",
+      "url": "https://arstechnica.com/security/2026/06/critical-copilot-vulnerability-allowed-hackers-to-seal-2fa-code-from-users/",
       "source": "Ars Technica (AI)",
       "drafts": [
-        "Notionがメールアプリを終了するそうです。理由は、多くのユーザーがAIエージェントで受信箱を管理するようになったから、とのこと📮 「メールは自分で読むもの」という前提が崩れ始めているんですね。",
-        "「エージェントで受信箱を運用する」方向に全振りする——Notionがメールアプリの終了を発表したそうです。アプリのUIよりAIとの対話が主役になる流れ、他のツールにも広がりそうですね🤔",
-        "Notionのメールアプリが役目を終えるそうです。ユーザーの多くがAIエージェント経由でメールを扱っているためとのこと📡 気づけば私たちの道具の形、静かに変わってきていますね。みなさんはもうエージェント派ですか？"
+        "Copilotに重大な脆弱性が見つかり、2要素認証コードが盗まれる恐れがあったそうです😨 「SearchLeak」と呼ばれる手法とのこと。AIアシスタントと大事な情報の距離感、改めて考えたいですね。",
+        "AIアシスタント経由で2FAコードが漏れる…そんなCopilotの脆弱性が報告されたそうです。LLMのセキュリティ対策の難しさを示す事例と指摘されています。便利さの裏のリスク、意識しておきたいですね🔐",
+        "Copilotの脆弱性で2段階認証のコードが盗まれる可能性があったという報道です。記事では業界のLLMセキュリティ対策の課題も指摘されているそうです。AIに任せる範囲、見直すきっかけになりそうですね🤔"
       ],
       "error": null,
-      "summary_ja": "Notionがメールアプリを終了へ。ユーザーの多くがAIエージェントで受信箱を管理するようになったため、エージェント路線に注力するという話。"
+      "summary_ja": "Copilotの重大な脆弱性により、攻撃者がユーザーの2要素認証（2FA）コードを盗める状態だったという報道。「SearchLeak」と呼ばれる手法で、LLMセキュリティ対策の根本的な難しさを示す事例と指摘されています。"
     },
     {
-      "title": "Oracle's 21,000 layoffs help drive its debt-fueled AI investments",
-      "url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments/",
-      "source": "Ars Technica (AI)",
+      "title": "Show HN: AI blog system with human DNA",
+      "url": "https://voicecite.com",
+      "source": "Hacker News",
       "drafts": [
-        "Oracleが21,000人規模の人員削減を進める一方、借入も使ってAIデータセンターへ巨額投資を続けていると報じられています📡 AIブームの熱量と、その裏にあるコストの重さを感じるニュースです。",
-        "OracleのAI投資に関する記事です。数十億ドル規模のインフラ投資の一方で大規模なレイオフも行われているとのこと。AI競争の激しさは、働く人の環境にも影響しているんですね🤔",
-        "AIインフラへの投資競争、規模がすごいことになっています。Oracleは借入と人員削減を伴いながら投資を続けているそうです。この投資が実を結ぶのか、業界全体の動きと一緒に見守りましょう☁️"
+        "「人間のDNAを持つAIブログ」という個人開発プロジェクトがHacker Newsに登場したそうです。AIの文章にどう人間らしさを残すか、というテーマは今どきですね✍️ 発想が気になります。",
+        "AIブログシステムに「人間のDNA」を…というユニークな個人開発がHNで話題です。AI生成の記事があふれる中で、人の個性をどう残すかは大事なテーマですね🌱",
+        "Hacker Newsで「human DNA入りのAIブログシステム」というプロジェクトが公開されたそうです。ネーミングのインパクトがすごいですね😳 AIと人間らしさの両立、みなさんはどう考えますか？"
       ],
       "error": null,
-      "summary_ja": "Oracleが21,000人の人員削減を進める一方、借入も使ってAIデータセンターに巨額投資を続けているという報道。"
+      "summary_ja": "「人間のDNAを持つAIブログシステム」と題した個人開発プロジェクトがHacker Newsで公開された話題。AI生成コンテンツに人間らしさを組み込むことを目指しているようです。"
+    },
+    {
+      "title": "AI coding jargon, explained in plain English",
+      "url": "https://github.com/mattpocock/dictionary-of-ai-coding",
+      "source": "Hacker News",
+      "drafts": [
+        "AIコーディング界隈の専門用語をやさしい英語で解説する辞書がGitHubで公開され、話題だそうです📖 新しい言葉が次々出てくる分野なので、こういう整理はありがたいですね。",
+        "「AIコーディング用語辞典」がHacker Newsで話題です。難しい専門用語を平易な言葉で説明してくれるそうですよ。流行についていくのが大変な今、まず言葉から整理するのは良いですね✨",
+        "AI開発の専門用語を平易に解説するリポジトリが公開されたそうです。専門用語って知らないうちに増えていて、会話についていけないこと、ありますよね😅 こういう取り組みは嬉しいです。"
+      ],
+      "error": null,
+      "summary_ja": "AIコーディング関連の専門用語を平易な英語で解説する「辞書」リポジトリがGitHubで公開され、Hacker Newsで話題になっています。"
+    },
+    {
+      "title": "OpenAPI Initiative AI Policy",
+      "url": "https://github.com/OAI/OpenAPI-Specification/blob/main/AI.md",
+      "source": "Hacker News",
+      "drafts": [
+        "OpenAPI仕様のリポジトリに「AIポリシー」の文書が追加され、話題になっているそうです。オープンソースがAIによる貢献とどう付き合うか、ルール作りが本格化してきましたね📝",
+        "OSSプロジェクトにもAI時代のルール作りの波が。OpenAPIのリポジトリにAIポリシーの文書が置かれ、HNで注目されているそうです。他のプロジェクトにも広がりそうな動きですね🤔",
+        "OpenAPIのリポジトリにAI.mdというポリシー文書が追加されたそうです。AI生成コードの扱いは多くのOSSで悩みどころ。有名プロジェクトの方針は参考になりそうですね✨"
+      ],
+      "error": null,
+      "summary_ja": "OpenAPI仕様のリポジトリにAIポリシー文書（AI.md）が追加され、Hacker Newsで話題に。オープンソースプロジェクトがAI利用やAI由来の貢献にどう向き合うかを示す一例です。"
+    },
+    {
+      "title": "Secure AI Sandboxes on Kubernetes",
+      "url": "https://mitos.run/blog/ai-sandboxes-on-kubernetes",
+      "source": "Hacker News",
+      "drafts": [
+        "Kubernetes上で安全なAIサンドボックスを作る、という技術記事が話題だそうです。AIエージェントにコードを実行させる時代、隔離環境の作り方は要チェックですね🛡️",
+        "AIエージェントを安全に動かす「サンドボックス」をKubernetesで、という解説記事がHNで注目されています。自律的に動くAIが増えるほど、守りの技術も大事になりますね🤔",
+        "「AIに自由にやらせたい、でも安全に」…そんな時のためのKubernetesサンドボックス構築の記事だそうです。エージェント時代のインフラ話、地味に見えて重要なテーマですね✨"
+      ],
+      "error": null,
+      "summary_ja": "Kubernetes上で安全なAIサンドボックス（AIエージェントにコードを実行させるための隔離環境）を構築する方法を解説する技術ブログ記事。"
+    },
+    {
+      "title": "Show HN: microide, a 100% vibecoded IDE that LLM agents can drive",
+      "url": "https://pablojimenezmateo.github.io/microide/",
+      "source": "Hacker News",
+      "drafts": [
+        "LLMエージェントが操作できるIDE「microide」が公開されたそうです。しかも本体も100% vibe codingで開発したとのこと😳 AIがAIの道具を作る時代、来てますね。",
+        "「100% vibecodedのIDE」がHNに登場です。LLMエージェントが操作できる前提のIDEだそうで、開発ツールの発想が変わってきたのを感じますね🛠️",
+        "AIエージェントが操作できるIDE「microide」、作者いわく全部vibe codingで作ったそうです。道具までAIが作るようになると、開発の風景はどう変わるのでしょう…気になりますね✨"
+      ],
+      "error": null,
+      "summary_ja": "「100% vibecoded（AIに任せた開発）」で作られた、LLMエージェントが操作できる軽量IDE「microide」がHacker Newsで公開された話題。"
+    },
+    {
+      "title": "Blog with AI Auto Poster",
+      "url": "https://news.ycombinator.com/item?id=48794594",
+      "source": "Hacker News",
+      "drafts": [
+        "AIが自動でブログを投稿する仕組みを作った、という投稿がHacker Newsに出ていました。手軽さは魅力ですが、AI任せの発信をどこまで良しとするかは考えたいところですね🤔",
+        "「AI自動投稿つきブログ」の話題です。記事作成から投稿までAIに任せる仕組みだそうで、便利そうな反面、読み手としては書き手の顔が見えるブログも恋しくなりますね😌",
+        "ブログ投稿をAIで自動化した、という個人開発の話題がHNに出ていました。継続発信の悩みをAIで解決する動きは増えそうですが、自分の言葉の価値も忘れずにいたいですね✨"
+      ],
+      "error": null,
+      "summary_ja": "AIが自動でブログ記事を投稿する仕組みを作ったというHacker Newsの投稿。AIによる自動コンテンツ発信の是非も含めて関心を集めているようです。"
     }
-  ],
-  "generated_at_display": "2026年7月6日 00:15"
+  ]
 }
