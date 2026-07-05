@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ persona.display_name }} 下書きツール</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <h1>{{ persona.display_name }} <span class="username">{{ persona.username }}</span></h1>
+    <p class="bio">{{ persona.bio }}</p>
+  </div>
+</header>
+
+<main>
+  {% if data %}
+    <p class="meta">最終生成: {{ data.generated_at_display or data.generated_at }} / {{ data.articles|length }}件の記事</p>
+
+    <div class="articles">
+      {% for article in data.articles %}
+      <section class="article-card">
+        <div class="article-head">
+          <span class="source-badge">{{ article.source }}</span>
+          <a href="{{ article.url }}" target="_blank" rel="noopener" class="article-title">{{ article.title }}</a>
+          {% if article.summary_ja %}
+          <p class="summary-ja">{{ article.summary_ja }}</p>
+          {% endif %}
+        </div>
+
+        {% if article.error %}
+          <p class="error">生成エラー: {{ article.error }}</p>
+        {% endif %}
+
+        <div class="drafts">
+          {% for draft in article.drafts %}
+          <div class="draft" data-draft-key="{{ article.url }}#{{ loop.index }}">
+            <p class="draft-text">{{ draft }}</p>
+            <div class="draft-footer">
+              <span class="char-count">{{ draft|length }}字</span>
+              <label class="used-label"><input type="checkbox" class="used-check">投稿済み</label>
+              <span class="spacer"></span>
+              <button class="copy-btn" data-text="{{ draft }}">コピー</button>
+              <a class="post-btn" data-text="{{ draft }}" data-url="{{ article.url }}" href="#" target="_blank" rel="noopener">Xで投稿</a>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="empty">まだ下書きがありません。チャットで「下書き作って」と頼んでください。</p>
+  {% endif %}
+
+  <p class="footer-note">下書きはClaude Codeのチャットで「下書き作って」と頼むと更新されます。投稿済みマークはこの端末のブラウザにだけ保存されます。</p>
+</main>
+
+<script>
+// コピー ボタン
+document.querySelectorAll('.copy-btn').forEach((el) => {
+  el.addEventListener('click', () => {
+    navigator.clipboard.writeText(el.dataset.text).then(() => {
+      const original = el.textContent;
+      el.textContent = 'コピーしました';
+      setTimeout(() => { el.textContent = original; }, 1500);
+    });
+  });
+});
+
+// Xで投稿 ボタン（下書き＋記事URL入りでXの投稿画面を開く。投稿は手動）
+document.querySelectorAll('.post-btn').forEach((el) => {
+  const text = el.dataset.text + '\n\n' + el.dataset.url;
+  el.href = 'https://x.com/intent/post?text=' + encodeURIComponent(text);
+});
+
+// 投稿済みマーク（localStorageに端末ごと保存）
+const USED_KEY = 'renai_used_drafts';
+const loadUsed = () => JSON.parse(localStorage.getItem(USED_KEY) || '{}');
+const saveUsed = (used) => localStorage.setItem(USED_KEY, JSON.stringify(used));
+
+const used = loadUsed();
+document.querySelectorAll('.draft').forEach((card) => {
+  const key = card.dataset.draftKey;
+  const check = card.querySelector('.used-check');
+  if (used[key]) {
+    check.checked = true;
+    card.classList.add('used');
+  }
+  check.addEventListener('change', () => {
+    const current = loadUsed();
+    if (check.checked) {
+      current[key] = true;
+      card.classList.add('used');
+    } else {
+      delete current[key];
+      card.classList.remove('used');
+    }
+    saveUsed(current);
+  });
+});
+</script>
+</body>
+</html>

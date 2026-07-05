@@ -1,0 +1,171 @@
+:root {
+  --accent: #7dd3e8;      /* Ren_ai の水色トーン */
+  --accent-dark: #3aa8c9;
+  --bg: #f7fbfd;
+  --card-bg: #ffffff;
+  --text: #2b3a42;
+  --text-sub: #7a8b94;
+  --border: #e0edf2;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Hiragino Sans", "Yu Gothic", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, var(--accent) 0%, #b8e8f5 100%);
+  padding: 24px 0;
+}
+
+.header-inner {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.username {
+  font-size: 0.9rem;
+  font-weight: normal;
+  opacity: 0.9;
+}
+
+.bio {
+  margin: 6px 0 0;
+  color: #fff;
+  font-size: 0.85rem;
+  opacity: 0.95;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-note {
+  font-size: 0.78rem;
+  color: var(--text-sub);
+  text-align: center;
+  margin: 28px 0 10px;
+}
+.meta { font-size: 0.8rem; color: var(--text-sub); }
+.empty { color: var(--text-sub); text-align: center; padding: 40px 0; }
+.error { color: #c0392b; font-size: 0.85rem; }
+
+.article-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+.article-head { margin-bottom: 12px; }
+
+.source-badge {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.7rem;
+  border-radius: 999px;
+  padding: 2px 10px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.article-title {
+  color: var(--text);
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.article-title:hover { color: var(--accent-dark); text-decoration: underline; }
+
+.summary-ja {
+  margin: 8px 0 0;
+  font-size: 0.85rem;
+  color: var(--text-sub);
+  background: #eef7fa;
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+
+.drafts { display: flex; flex-direction: column; gap: 10px; }
+
+.draft {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px 14px;
+}
+
+.draft-text {
+  margin: 0 0 8px;
+  white-space: pre-wrap;
+  font-size: 0.92rem;
+}
+
+.draft-footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.spacer { flex: 1; }
+
+.char-count { font-size: 0.75rem; color: var(--text-sub); }
+
+.used-label {
+  font-size: 0.75rem;
+  color: var(--text-sub);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.draft.used { opacity: 0.45; }
+.draft.used .draft-text { text-decoration: line-through; }
+
+.copy-btn {
+  background: #fff;
+  border: 1px solid var(--accent-dark);
+  color: var(--accent-dark);
+  border-radius: 6px;
+  padding: 5px 14px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.copy-btn:hover { background: var(--accent-dark); color: #fff; }
+
+.post-btn {
+  background: var(--accent-dark);
+  border: 1px solid var(--accent-dark);
+  color: #fff;
+  border-radius: 6px;
+  padding: 5px 14px;
+  font-size: 0.8rem;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+
+.post-btn:hover { background: #2d8aa8; }
