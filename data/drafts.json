@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-07-06T05:07:40+00:00",
-  "generated_at_display": "2026年7月6日 14:07",
+  "generated_at": "2026-07-06T05:11:06+00:00",
+  "generated_at_display": "2026年7月6日 14:11",
   "articles": [
+    {
+      "title": "Claude Fable 5 isn't permanently leaving subscriptions, Anthropic says",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/",
+      "source": "BleepingComputer",
+      "drafts": [
+        "「Fable 5は7月7日まで」と話題ですが、正確にはサブスクに含まれるのが7日までで、以降は従量課金のクレジットで使える形だそうです。Anthropicは容量が整い次第プランに戻したい意向とのこと。少し安心ですね😌",
+        "話題のClaude Fable 5、7月7日までは有料プランで週の使用上限の50%まで使えるそうです。8日以降は使用クレジット経由に切り替わるとのこと。気になっている方は今のうちに試すのが良さそうですね✨",
+        "「Fable 5が使えなくなる」という投稿が広まっていますが、Anthropicは「恒久的ではない」と説明しているそうです。7日以降はクレジットでの提供になり、将来的にプラン復帰を目指すとのこと。続報を待ちたいですね🤔"
+      ],
+      "error": null,
+      "summary_ja": "「Claude Fable 5は7月7日まで」という投稿が拡散しているが、正確にはPro/Max/Team等の有料プランに含まれる期間が7月7日まで（週の使用上限の50%まで利用可）。7月8日以降は使用クレジット（従量課金）経由での提供となる。Anthropicは恒久的な終了ではなく、容量が確保でき次第サブスクへの復帰を目指すと説明している。"
+    },
     {
       "title": "Claude Fable 5 and Claude Mythos 5",
       "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
