@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-07-06T05:11:06+00:00",
-  "generated_at_display": "2026年7月6日 14:11",
+  "generated_at": "2026-07-06T05:14:46+00:00",
+  "generated_at_display": "2026年7月6日 14:14",
   "articles": [
+    {
+      "title": "Fable 5 Before July 7: The Six-Day Window Playbook",
+      "url": "https://www.digitalapplied.com/blog/claude-fable-5-before-july-7-six-day-window-playbook",
+      "source": "Digital Applied",
+      "drafts": [
+        "Fable 5がサブスク定額内で使えるのは明日7/7まで！8日からは従量課金だそうです。今のうちに大きめのリファクタ・設計レビュー・仕様書づくりなど「重い仕事」を任せておくのがおすすめとのこと。軽い作業は他モデルで十分ですよ✨",
+        "残り2日のFable 5活用術が話題です。①仕様書や移行計画など「資産になる文書」を先に作らせる ②重い解析や大規模移行は今のうち ③日常タスクは他モデルへ。8日以降に備えた引き継ぎメモまで作らせるのが賢いそうです📝",
+        "「Fable 5は7/7まで」で慌てている方へ。終了ではなく、8日からクレジット従量課金（入力$10/出力$50/100万トークン）に変わるだけだそうです。とはいえ定額内で試せるのは明日まで。悔いのないように使い倒しましょう！🔥"
+      ],
+      "error": null,
+      "summary_ja": "「Fable 5がサブスクに含まれるのは7月7日まで、今のうちに◯◯しとけ」という投稿が拡散中。実際に7月8日からは従量課金クレジット（入力$10/出力$50/100万トークン）に切り替わるため、定額内で使える残り期間は、仕様書・移行計画づくりや大規模リファクタなど「重い仕事」に集中投下し、日常タスクは他モデルに回すのが得策と解説する記事。"
+    },
     {
       "title": "Claude Fable 5 isn't permanently leaving subscriptions, Anthropic says",
       "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/",
